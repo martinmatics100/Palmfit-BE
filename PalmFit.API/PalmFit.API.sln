@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalmFit.API", "PalmFit.API\PalmFit.API.csproj", "{94E4157B-CBB0-4679-BC05-ECA46996D016}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalmFit.Core", "PalmFit.Core\PalmFit.Core.csproj", "{7715EB1F-87CD-4CDF-8452-AF4DB18CEEB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalmFit.Data", "PalmFit.Data\PalmFit.Data.csproj", "{C9B094F2-80AA-4ECE-B349-BD73CFF19750}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalmFit.Domain", "PalmFit.Domain\PalmFit.Domain.csproj", "{039C0C1E-FA23-4576-9E61-E0A17B275AFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D1738416-E19C-48CE-86C4-8960ACA5651E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{65C5EC8A-278C-4AA7-B956-00AEAFD5CB16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalmFit.Test", "PalmFit.Test\PalmFit.Test.csproj", "{DCF87C62-044E-4BEC-B966-84DA733AEE26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94E4157B-CBB0-4679-BC05-ECA46996D016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E4157B-CBB0-4679-BC05-ECA46996D016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E4157B-CBB0-4679-BC05-ECA46996D016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E4157B-CBB0-4679-BC05-ECA46996D016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7715EB1F-87CD-4CDF-8452-AF4DB18CEEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7715EB1F-87CD-4CDF-8452-AF4DB18CEEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7715EB1F-87CD-4CDF-8452-AF4DB18CEEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7715EB1F-87CD-4CDF-8452-AF4DB18CEEB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B094F2-80AA-4ECE-B349-BD73CFF19750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B094F2-80AA-4ECE-B349-BD73CFF19750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B094F2-80AA-4ECE-B349-BD73CFF19750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B094F2-80AA-4ECE-B349-BD73CFF19750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{039C0C1E-FA23-4576-9E61-E0A17B275AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{039C0C1E-FA23-4576-9E61-E0A17B275AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{039C0C1E-FA23-4576-9E61-E0A17B275AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{039C0C1E-FA23-4576-9E61-E0A17B275AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF87C62-044E-4BEC-B966-84DA733AEE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF87C62-044E-4BEC-B966-84DA733AEE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF87C62-044E-4BEC-B966-84DA733AEE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF87C62-044E-4BEC-B966-84DA733AEE26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94E4157B-CBB0-4679-BC05-ECA46996D016} = {D1738416-E19C-48CE-86C4-8960ACA5651E}
+		{7715EB1F-87CD-4CDF-8452-AF4DB18CEEB8} = {D1738416-E19C-48CE-86C4-8960ACA5651E}
+		{C9B094F2-80AA-4ECE-B349-BD73CFF19750} = {D1738416-E19C-48CE-86C4-8960ACA5651E}
+		{039C0C1E-FA23-4576-9E61-E0A17B275AFB} = {D1738416-E19C-48CE-86C4-8960ACA5651E}
+		{DCF87C62-044E-4BEC-B966-84DA733AEE26} = {65C5EC8A-278C-4AA7-B956-00AEAFD5CB16}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E428F6FA-E79D-4DFC-9F0F-AF60BBFFE101}
+	EndGlobalSection
+EndGlobal
