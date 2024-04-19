@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\PalmFit.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{94E4157B-CBB0-4679-BC05-ECA46996D016}|PalmFit.API\\PalmFit.API.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit.api\\palmfit.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{94E4157B-CBB0-4679-BC05-ECA46996D016}|PalmFit.API\\PalmFit.API.csproj|solutionrelative:palmfit.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{039C0C1E-FA23-4576-9E61-E0A17B275AFB}|PalmFit.Domain\\PalmFit.Domain.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit.api\\palmfit.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{039C0C1E-FA23-4576-9E61-E0A17B275AFB}|PalmFit.Domain\\PalmFit.Domain.csproj|solutionrelative:palmfit.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{039C0C1E-FA23-4576-9E61-E0A17B275AFB}|PalmFit.Domain\\PalmFit.Domain.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit.api\\palmfit.domain\\entities\\foodclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{039C0C1E-FA23-4576-9E61-E0A17B275AFB}|PalmFit.Domain\\PalmFit.Domain.csproj|solutionrelative:palmfit.domain\\entities\\foodclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{039C0C1E-FA23-4576-9E61-E0A17B275AFB}|PalmFit.Domain\\PalmFit.Domain.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit.api\\palmfit.domain\\entities\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{039C0C1E-FA23-4576-9E61-E0A17B275AFB}|PalmFit.Domain\\PalmFit.Domain.csproj|solutionrelative:palmfit.domain\\entities\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{039C0C1E-FA23-4576-9E61-E0A17B275AFB}|PalmFit.Domain\\PalmFit.Domain.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit.api\\palmfit.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{039C0C1E-FA23-4576-9E61-E0A17B275AFB}|PalmFit.Domain\\PalmFit.Domain.csproj|solutionrelative:palmfit.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{039C0C1E-FA23-4576-9E61-E0A17B275AFB}|PalmFit.Domain\\PalmFit.Domain.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit.api\\palmfit.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,19 +43,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\PalmFit.API\\PalmFit.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PalmFit.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\PalmFit.API\\PalmFit.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PalmFit.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-18T10:23:09.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FoodClass.cs",
               "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\PalmFit.API\\PalmFit.Domain\\Entities\\FoodClass.cs",
               "RelativeDocumentMoniker": "PalmFit.Domain\\Entities\\FoodClass.cs",
               "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\PalmFit.API\\PalmFit.Domain\\Entities\\FoodClass.cs",
               "RelativeToolTip": "PalmFit.Domain\\Entities\\FoodClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T21:03:52.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T21:03:52.765Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Food.cs",
               "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\PalmFit.API\\PalmFit.Domain\\Entities\\Food.cs",
               "RelativeDocumentMoniker": "PalmFit.Domain\\Entities\\Food.cs",
@@ -63,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Address.cs",
               "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\PalmFit.API\\PalmFit.Domain\\Entities\\Address.cs",
               "RelativeDocumentMoniker": "PalmFit.Domain\\Entities\\Address.cs",
@@ -75,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\PalmFit.API\\PalmFit.Domain\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "PalmFit.Domain\\Entities\\BaseEntity.cs",
@@ -87,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\PalmFit.API\\PalmFit.Domain\\Entities\\AppUser.cs",
               "RelativeDocumentMoniker": "PalmFit.Domain\\Entities\\AppUser.cs",

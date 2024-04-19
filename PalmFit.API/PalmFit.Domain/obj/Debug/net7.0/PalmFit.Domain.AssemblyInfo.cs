@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PalmFit.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c43c4bdb5d790ebf55cdb160855ba4e2f42e421")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed411152eb82675a9cbe4b4714f6422b51cdc38d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PalmFit.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PalmFit.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
