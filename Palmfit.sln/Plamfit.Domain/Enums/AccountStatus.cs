@@ -7,15 +7,15 @@ namespace Plamfit.Domain.Enums
     public enum AccountStatus
     {
         [Description("Active")]
-        Active,
+        Active = 1,
 
         [Description("Inactive")]
-        Inactive,
+        Inactive = 2,
 
         [Description("Suspended")]
-        Suspended,
+        Suspended = 3,
 
         [Description("Deactivated")]
-        Deactivated
+        Deactivated = 4
     }
 }

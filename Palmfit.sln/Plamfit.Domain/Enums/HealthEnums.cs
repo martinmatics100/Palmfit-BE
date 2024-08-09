@@ -9,31 +9,31 @@ namespace Plamfit.Domain.Enums
         public enum GenoType
         {
             [Description("AA Genotype")]
-            AA,
+            AA = 1,
 
             [Description("AS Genotype")]
-            AS,
+            AS = 2,
 
             [Description("SS Genotype")]
-            SS,
+            SS = 3,
 
             [Description("SC Genotype")]
-            SC
+            SC = 4
         }
 
         public enum BloodGroup
         {
             [Description("Blood Group A")]
-            A,
+            A = 1,
 
             [Description("Blood Group B")]
-            B,
+            B = 2,
 
             [Description("Blood Group AB")]
-            AB,
+            AB = 3,
 
             [Description("Blood Group O")]
-            O
+            O = 4,
         }
     }
 }

@@ -7,12 +7,12 @@ namespace Plamfit.Domain.Enums
     public enum ActivityLevel
     {
         [Description("Inactive")]
-        Inactive,
+        Inactive = 1,
 
         [Description("Some What Active")]
-        SomeWhatActive,
+        SomeWhatActive = 2,
 
         [Description("Active")]
-        Active,
+        Active = 3,
     }
 }

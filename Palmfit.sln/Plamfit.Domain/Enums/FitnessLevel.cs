@@ -7,15 +7,15 @@ namespace Plamfit.Domain.Enums
     public enum FitnessLevel
     {
         [Description("Beginner")]
-        Beginner,
+        Beginner = 1,
 
         [Description("Intermediate")]
-        Intermediate,
+        Intermediate = 2,
 
         [Description("Advanced")]
-        Advanced,
+        Advanced = 3,
 
         [Description("Expert")]
-        Expert
+        Expert = 4
     }
 }

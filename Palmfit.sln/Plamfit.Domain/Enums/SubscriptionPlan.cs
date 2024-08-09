@@ -7,15 +7,15 @@ namespace Plamfit.Domain.Enums
     public enum SubscriptionPlan
     {
         [Description("Free")]
-        Free,
+        Free = 1,
 
         [Description("Basic")]
-        Basic,
+        Basic = 2,
 
         [Description("Premium")]
-        Premium,
+        Premium1 = 3,
 
         [Description("Very Important Person")]
-        VIP
+        VIP = 4
     }
 }

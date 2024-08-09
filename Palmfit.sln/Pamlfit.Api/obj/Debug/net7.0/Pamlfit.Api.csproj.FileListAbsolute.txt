@@ -1,3 +1,4 @@
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\Pamlfit.Api\bin\Debug\net7.0\nLog.config
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\Pamlfit.Api\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\Pamlfit.Api\bin\Debug\net7.0\appsettings.json
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\Pamlfit.Api\bin\Debug\net7.0\Pamlfit.Api.exe
@@ -7,6 +8,9 @@ C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-B
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\Pamlfit.Api\bin\Debug\net7.0\Pamlfit.Api.pdb
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\Pamlfit.Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\Pamlfit.Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\Pamlfit.Api\bin\Debug\net7.0\NLog.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\Pamlfit.Api\bin\Debug\net7.0\NLog.Extensions.Logging.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\Pamlfit.Api\bin\Debug\net7.0\NLog.Web.AspNetCore.dll
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\Pamlfit.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\Pamlfit.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\Pamlfit.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll

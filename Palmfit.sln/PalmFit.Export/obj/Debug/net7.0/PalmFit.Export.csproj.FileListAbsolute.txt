@@ -1,0 +1,12 @@
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\PalmFit.Export\bin\Debug\net7.0\PalmFit.Export.deps.json
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\PalmFit.Export\bin\Debug\net7.0\PalmFit.Export.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\PalmFit.Export\bin\Debug\net7.0\PalmFit.Export.pdb
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\PalmFit.Export\obj\Debug\net7.0\PalmFit.Export.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\PalmFit.Export\obj\Debug\net7.0\PalmFit.Export.AssemblyInfoInputs.cache
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\PalmFit.Export\obj\Debug\net7.0\PalmFit.Export.AssemblyInfo.cs
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\PalmFit.Export\obj\Debug\net7.0\PalmFit.Export.csproj.CoreCompileInputs.cache
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\PalmFit.Export\obj\Debug\net7.0\PalmFit.Export.sourcelink.json
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\PalmFit.Export\obj\Debug\net7.0\PalmFit.Export.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\PalmFit.Export\obj\Debug\net7.0\refint\PalmFit.Export.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\PalmFit.Export\obj\Debug\net7.0\PalmFit.Export.pdb
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit.sln\PalmFit.Export\obj\Debug\net7.0\ref\PalmFit.Export.dll

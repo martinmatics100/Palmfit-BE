@@ -5,12 +5,12 @@ namespace Plamfit.Domain.Enums
     public enum WeightGoal
     {
         [Description("Lose Weight")]
-        LoseWeight,
+        LoseWeight = 1,
 
         [Description("Maintain Weight")]
-        MaintainWeight,
+        MaintainWeight = 2,
 
         [Description("Gain Weight")]
-        GainWeight
+        GainWeight = 3
     }
 }

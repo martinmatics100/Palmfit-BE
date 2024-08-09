@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "PalmFit.Export/1.0.0": {
+        "runtime": {
+          "PalmFit.Export.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PalmFit.Export/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

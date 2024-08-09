@@ -7,12 +7,12 @@ namespace Plamfit.Domain.Enums.Units
     public enum HeightUnit
     {
         [Description("Centimeters")]
-        cm,
+        cm = 1,
 
         [Description("Inches")]
-        inches,
+        inches = 2,  
 
         [Description("Feet")]
-        ft
+        ft = 3,
     }
 }

@@ -7,9 +7,9 @@ namespace Plamfit.Domain.Enums.Units
     public enum WeightUnit
     {
         [Description("Kilograms")]
-        Kg,
+        Kg = 1,
 
         [Description("Pounds")]
-        Lbs
+        Lbs = 2
     }
 }
