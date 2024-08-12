@@ -1,0 +1,16 @@
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\bin\Debug\net8.0\Palmfit.Application.deps.json
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\bin\Debug\net8.0\Palmfit.Application.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\bin\Debug\net8.0\Palmfit.Application.pdb
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\bin\Debug\net8.0\Palmfit.Domain.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\bin\Debug\net8.0\Palmfit.Domain.pdb
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\obj\Debug\net8.0\Palmfit.Application.csproj.AssemblyReference.cache
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\obj\Debug\net8.0\Palmfit.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\obj\Debug\net8.0\Palmfit.Application.AssemblyInfoInputs.cache
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\obj\Debug\net8.0\Palmfit.Application.AssemblyInfo.cs
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\obj\Debug\net8.0\Palmfit.Application.csproj.CoreCompileInputs.cache
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\obj\Debug\net8.0\Palmfit.Application.sourcelink.json
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\obj\Debug\net8.0\Palmfit..7228E282.Up2Date
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\obj\Debug\net8.0\Palmfit.Application.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\obj\Debug\net8.0\refint\Palmfit.Application.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\obj\Debug\net8.0\Palmfit.Application.pdb
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\obj\Debug\net8.0\ref\Palmfit.Application.dll
