@@ -12,7 +12,6 @@ namespace Palmfit.Domain.Entities.Payment
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public bool IsExpired { get; set; }
-        public Guid AppUserId { get; set; }
-        public AppUser AppUser { get; set; }
+        public ICollection<AppUser> User { get; set; }
     }
 }

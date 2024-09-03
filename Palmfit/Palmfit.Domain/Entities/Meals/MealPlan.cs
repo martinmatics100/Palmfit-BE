@@ -12,16 +12,8 @@ namespace Palmfit.Domain.Entities.Meals
         public string Name { get; set; }
         public MealPlanDuration Duration { get; set; }
         public string ImageUrl { get; set; }
-
         public ICollection<AppUser> Users { get; set; }
-
         public ICollection<Food> Foods { get; set; }
-
-        public Dictionary<DayOfTheWeek, Meal> WeeklyMeals { get; set; }
-
-        public MealPlan()
-        {
-            WeeklyMeals = new Dictionary<DayOfTheWeek, Meal>();
-        }
+        public ICollection<Meal> Meals { get; set; }
     }
 }

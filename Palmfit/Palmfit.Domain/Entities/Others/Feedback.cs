@@ -8,8 +8,7 @@ namespace Palmfit.Domain.Entities.Others
 {
     public class Feedback : BaseEntity
     {
-        public Guid UserId { get; set; }
-        public AppUser User { get; set; }
+        public ICollection<AppUser> Users { get; set; }
         public FeedbackType FeedbackType { get; set; }
         public string FeedbackText { get; set; }
         public int Rating { get; set; }

@@ -1,10 +1,11 @@
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Infrastructure\bin\Debug\net8.0\Palmfit.Infrastructure.deps.json
-C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Infrastructure\bin\Debug\net8.0\Palmfit.Infrastructure.runtimeconfig.json
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Infrastructure\bin\Debug\net8.0\Palmfit.Infrastructure.dll
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Infrastructure\bin\Debug\net8.0\Palmfit.Infrastructure.pdb
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Infrastructure\bin\Debug\net8.0\Palmfit.Application.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Infrastructure\bin\Debug\net8.0\Palmfit.Common.dll
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Infrastructure\bin\Debug\net8.0\Palmfit.Domain.dll
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Infrastructure\bin\Debug\net8.0\Palmfit.Application.pdb
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Infrastructure\bin\Debug\net8.0\Palmfit.Common.pdb
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Infrastructure\bin\Debug\net8.0\Palmfit.Domain.pdb
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Infrastructure\obj\Debug\net8.0\Palmfit.Infrastructure.csproj.AssemblyReference.cache
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Infrastructure\obj\Debug\net8.0\Palmfit.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,5 +17,4 @@ C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-B
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Infrastructure\obj\Debug\net8.0\Palmfit.Infrastructure.dll
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Infrastructure\obj\Debug\net8.0\refint\Palmfit.Infrastructure.dll
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Infrastructure\obj\Debug\net8.0\Palmfit.Infrastructure.pdb
-C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Infrastructure\obj\Debug\net8.0\Palmfit.Infrastructure.genruntimeconfig.cache
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Infrastructure\obj\Debug\net8.0\ref\Palmfit.Infrastructure.dll

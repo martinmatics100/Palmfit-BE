@@ -1,7 +1,9 @@
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\bin\Debug\net8.0\Palmfit.Application.deps.json
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\bin\Debug\net8.0\Palmfit.Application.dll
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\bin\Debug\net8.0\Palmfit.Application.pdb
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\bin\Debug\net8.0\Palmfit.Common.dll
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\bin\Debug\net8.0\Palmfit.Domain.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\bin\Debug\net8.0\Palmfit.Common.pdb
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\bin\Debug\net8.0\Palmfit.Domain.pdb
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\obj\Debug\net8.0\Palmfit.Application.csproj.AssemblyReference.cache
 C:\Users\marti\Desktop\My-Local-Repo-Folder\PalmFit-Project\PalmFit-BE\Palmfit-BE\Palmfit\Palmfit.Application\obj\Debug\net8.0\Palmfit.Application.GeneratedMSBuildEditorConfig.editorconfig

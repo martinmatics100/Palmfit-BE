@@ -6,11 +6,12 @@ namespace Palmfit.Domain.Entities.Users
 {
     public class Invite : BaseEntity
     {
-        public DateTime Date { get; set; }
+        public DateTime InviteDate { get; set; }
         public string Name { get; set; }
-        public string Email { get; set; }
+        public string InviteeEmail { get; set; }
         public string Phone { get; set; }
-        public Guid AppUserId { get; set; }
-        public AppUser AppUser { get; set; }
+        public bool IsAccepted { get; set; }
+        public Guid InviterId { get; set; }
+        public AppUser Inviter { get; set; }
     }
 }

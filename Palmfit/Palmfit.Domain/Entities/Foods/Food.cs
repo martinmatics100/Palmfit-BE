@@ -14,7 +14,7 @@ namespace Palmfit.Domain.Entities.Foods
         public string Image { get; set; }
         public decimal Calorie { get; set; }
         public string Unit { get; set; }
-        public string FoodClassId { get; set; }
+        public Guid FoodClassId { get; set; }
         public FoodClass FoodClass { get; set; }
         public ICollection<MealPlan> MealPlans { get; set; }
     }

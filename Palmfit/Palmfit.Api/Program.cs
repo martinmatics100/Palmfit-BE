@@ -1,4 +1,5 @@
-using Palmfit.Application;
+
+using Palmfit.Api.Extensions;
 using Palmfit.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,8 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 //----------------------------------------------------------------------------
 
 //Add Layer Dependencies
-builder.Services.AddApplicationServices();
-builder.Services.AddInfrastructureServices(builder.Configuration);
+builder.Services.AddDependencies(builder.Configuration);
 
 //--------------------------------------------------------------------
 
@@ -28,6 +28,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

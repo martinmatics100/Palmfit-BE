@@ -1,5 +1,7 @@
 ﻿
 
+using Palmfit.Domain.Enums;
+
 namespace Palmfit.Domain.Entities.Common
 {
     public class BaseEntity
@@ -7,6 +9,6 @@ namespace Palmfit.Domain.Entities.Common
         public Guid Id { get; set; } = Guid.NewGuid();
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
-        public bool IsDeprecated { get; set; }
+        public IsDeprecationStatus IsDeprecated { get; set; } = IsDeprecationStatus.False;
     }
 }

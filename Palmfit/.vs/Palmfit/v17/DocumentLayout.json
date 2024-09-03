@@ -3,72 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E9652E8-ACA2-400E-ADF4-BE80AC596CA1}|Palmfit.Application\\Palmfit.Application.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.application\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9652E8-ACA2-400E-ADF4-BE80AC596CA1}|Palmfit.Application\\Palmfit.Application.csproj|solutionrelative:palmfit.application\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E9652E8-ACA2-400E-ADF4-BE80AC596CA1}|Palmfit.Application\\Palmfit.Application.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.application\\cloudinaryfolder\\cloudinaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9652E8-ACA2-400E-ADF4-BE80AC596CA1}|Palmfit.Application\\Palmfit.Application.csproj|solutionrelative:palmfit.application\\cloudinaryfolder\\cloudinaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{474E8411-12F3-458F-8503-7A59BCB40F70}|Palmfit.Infrastructure\\Palmfit.Infrastructure.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.infrastructure\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{474E8411-12F3-458F-8503-7A59BCB40F70}|Palmfit.Infrastructure\\Palmfit.Infrastructure.csproj|solutionrelative:palmfit.infrastructure\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{657A7BE8-E433-4F41-A5E8-50978AB924F9}|Palmfit.Api\\Palmfit.Api.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.api\\extensions\\dbregistryextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657A7BE8-E433-4F41-A5E8-50978AB924F9}|Palmfit.Api\\Palmfit.Api.csproj|solutionrelative:palmfit.api\\extensions\\dbregistryextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9652E8-ACA2-400E-ADF4-BE80AC596CA1}|Palmfit.Application\\Palmfit.Application.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.application\\common\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9652E8-ACA2-400E-ADF4-BE80AC596CA1}|Palmfit.Application\\Palmfit.Application.csproj|solutionrelative:palmfit.application\\common\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E9652E8-ACA2-400E-ADF4-BE80AC596CA1}|Palmfit.Application\\Palmfit.Application.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.application\\services\\useraccountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9652E8-ACA2-400E-ADF4-BE80AC596CA1}|Palmfit.Application\\Palmfit.Application.csproj|solutionrelative:palmfit.application\\services\\useraccountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9652E8-ACA2-400E-ADF4-BE80AC596CA1}|Palmfit.Application\\Palmfit.Application.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.application\\common\\automapper\\imapfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9652E8-ACA2-400E-ADF4-BE80AC596CA1}|Palmfit.Application\\Palmfit.Application.csproj|solutionrelative:palmfit.application\\common\\automapper\\imapfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E9652E8-ACA2-400E-ADF4-BE80AC596CA1}|Palmfit.Application\\Palmfit.Application.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.application\\cloudinaryfolder\\icloudinaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9652E8-ACA2-400E-ADF4-BE80AC596CA1}|Palmfit.Application\\Palmfit.Application.csproj|solutionrelative:palmfit.application\\cloudinaryfolder\\icloudinaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9652E8-ACA2-400E-ADF4-BE80AC596CA1}|Palmfit.Application\\Palmfit.Application.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.application\\cloudinaryfolder\\cloudinarysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9652E8-ACA2-400E-ADF4-BE80AC596CA1}|Palmfit.Application\\Palmfit.Application.csproj|solutionrelative:palmfit.application\\cloudinaryfolder\\cloudinarysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657A7BE8-E433-4F41-A5E8-50978AB924F9}|Palmfit.Api\\Palmfit.Api.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657A7BE8-E433-4F41-A5E8-50978AB924F9}|Palmfit.Api\\Palmfit.Api.csproj|solutionrelative:palmfit.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9652E8-ACA2-400E-ADF4-BE80AC596CA1}|Palmfit.Application\\Palmfit.Application.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9652E8-ACA2-400E-ADF4-BE80AC596CA1}|Palmfit.Application\\Palmfit.Application.csproj|solutionrelative:palmfit.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9652E8-ACA2-400E-ADF4-BE80AC596CA1}|Palmfit.Application\\Palmfit.Application.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.application\\mapperprofile\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9652E8-ACA2-400E-ADF4-BE80AC596CA1}|Palmfit.Application\\Palmfit.Application.csproj|solutionrelative:palmfit.application\\mapperprofile\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.domain\\entities\\users\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|solutionrelative:palmfit.domain\\entities\\users\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.domain\\entities\\meals\\meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|solutionrelative:palmfit.domain\\entities\\meals\\meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.domain\\entities\\meals\\mealdiary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|solutionrelative:palmfit.domain\\entities\\meals\\mealdiary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.domain\\entities\\meals\\mealfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|solutionrelative:palmfit.domain\\entities\\meals\\mealfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.domain\\entities\\foods\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|solutionrelative:palmfit.domain\\entities\\foods\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.domain\\entities\\meals\\usermealplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|solutionrelative:palmfit.domain\\entities\\meals\\usermealplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.domain\\entities\\meals\\loggedmeal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|solutionrelative:palmfit.domain\\entities\\meals\\loggedmeal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.domain\\entities\\meals\\mealplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|solutionrelative:palmfit.domain\\entities\\meals\\mealplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.domain\\entities\\payment\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|solutionrelative:palmfit.domain\\entities\\payment\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.domain\\entities\\others\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|solutionrelative:palmfit.domain\\entities\\others\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.domain\\entities\\others\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|solutionrelative:palmfit.domain\\entities\\others\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.domain\\entities\\users\\invite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|solutionrelative:palmfit.domain\\entities\\users\\invite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\palmfit-project\\palmfit-be\\palmfit-be\\palmfit\\palmfit.domain\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE58AE87-ACE6-455A-BE67-F89E8008FCEF}|Palmfit.Domain\\Palmfit.Domain.csproj|solutionrelative:palmfit.domain\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,213 +58,120 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConfigureServices.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Application\\ConfigureServices.cs",
-              "RelativeDocumentMoniker": "Palmfit.Application\\ConfigureServices.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Application\\ConfigureServices.cs",
-              "RelativeToolTip": "Palmfit.Application\\ConfigureServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "DocumentIndex": 3,
+              "Title": "ICloudinaryService.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Application\\CloudinaryFolder\\ICloudinaryService.cs",
+              "RelativeDocumentMoniker": "Palmfit.Application\\CloudinaryFolder\\ICloudinaryService.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Application\\CloudinaryFolder\\ICloudinaryService.cs",
+              "RelativeToolTip": "Palmfit.Application\\CloudinaryFolder\\ICloudinaryService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T11:02:38.564Z",
+              "WhenOpened": "2024-09-03T18:53:09.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CloudinaryService.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Application\\CloudinaryFolder\\CloudinaryService.cs",
+              "RelativeDocumentMoniker": "Palmfit.Application\\CloudinaryFolder\\CloudinaryService.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Application\\CloudinaryFolder\\CloudinaryService.cs",
+              "RelativeToolTip": "Palmfit.Application\\CloudinaryFolder\\CloudinaryService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wBwAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T18:47:26.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CloudinarySetting.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Application\\CloudinaryFolder\\CloudinarySetting.cs",
+              "RelativeDocumentMoniker": "Palmfit.Application\\CloudinaryFolder\\CloudinarySetting.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Application\\CloudinaryFolder\\CloudinarySetting.cs",
+              "RelativeToolTip": "Palmfit.Application\\CloudinaryFolder\\CloudinarySetting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T18:47:14.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ConfigureServices.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Infrastructure\\ConfigureServices.cs",
-              "RelativeDocumentMoniker": "Palmfit.Infrastructure\\ConfigureServices.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Infrastructure\\ConfigureServices.cs",
-              "RelativeToolTip": "Palmfit.Infrastructure\\ConfigureServices.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAABMAAAA",
+              "Title": "DbRegistryExtension.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Api\\Extensions\\DbRegistryExtension.cs",
+              "RelativeDocumentMoniker": "Palmfit.Api\\Extensions\\DbRegistryExtension.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Api\\Extensions\\DbRegistryExtension.cs",
+              "RelativeToolTip": "Palmfit.Api\\Extensions\\DbRegistryExtension.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAgwFQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T11:02:27.999Z",
+              "WhenOpened": "2024-09-03T18:30:44.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Palmfit.Api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Palmfit.Api\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAIA0wEAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T17:52:30.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Application\\Common\\AutoMapper\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Palmfit.Application\\Common\\AutoMapper\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Application\\Common\\AutoMapper\\MappingProfile.cs",
-              "RelativeToolTip": "Palmfit.Application\\Common\\AutoMapper\\MappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Title": "UserAccountServices.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Application\\Services\\UserAccountServices.cs",
+              "RelativeDocumentMoniker": "Palmfit.Application\\Services\\UserAccountServices.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Application\\Services\\UserAccountServices.cs",
+              "RelativeToolTip": "Palmfit.Application\\Services\\UserAccountServices.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAwwCAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T11:02:19.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IMapFrom.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Application\\Common\\AutoMapper\\IMapFrom.cs",
-              "RelativeDocumentMoniker": "Palmfit.Application\\Common\\AutoMapper\\IMapFrom.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Application\\Common\\AutoMapper\\IMapFrom.cs",
-              "RelativeToolTip": "Palmfit.Application\\Common\\AutoMapper\\IMapFrom.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T11:02:17.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoggedMeal.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Meals\\LoggedMeal.cs",
-              "RelativeDocumentMoniker": "Palmfit.Domain\\Entities\\Meals\\LoggedMeal.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Meals\\LoggedMeal.cs",
-              "RelativeToolTip": "Palmfit.Domain\\Entities\\Meals\\LoggedMeal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T23:31:38.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MealDiary.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Meals\\MealDiary.cs",
-              "RelativeDocumentMoniker": "Palmfit.Domain\\Entities\\Meals\\MealDiary.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Meals\\MealDiary.cs",
-              "RelativeToolTip": "Palmfit.Domain\\Entities\\Meals\\MealDiary.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T23:30:39.403Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Meal.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Meals\\Meal.cs",
-              "RelativeDocumentMoniker": "Palmfit.Domain\\Entities\\Meals\\Meal.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Meals\\Meal.cs",
-              "RelativeToolTip": "Palmfit.Domain\\Entities\\Meals\\Meal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T22:39:54.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Notification.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Others\\Notification.cs",
-              "RelativeDocumentMoniker": "Palmfit.Domain\\Entities\\Others\\Notification.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Others\\Notification.cs",
-              "RelativeToolTip": "Palmfit.Domain\\Entities\\Others\\Notification.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T22:39:07.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Feedback.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Others\\Feedback.cs",
-              "RelativeDocumentMoniker": "Palmfit.Domain\\Entities\\Others\\Feedback.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Others\\Feedback.cs",
-              "RelativeToolTip": "Palmfit.Domain\\Entities\\Others\\Feedback.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T22:36:51.233Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Subscription.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Payment\\Subscription.cs",
-              "RelativeDocumentMoniker": "Palmfit.Domain\\Entities\\Payment\\Subscription.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Payment\\Subscription.cs",
-              "RelativeToolTip": "Palmfit.Domain\\Entities\\Payment\\Subscription.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T22:36:22.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Food.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Foods\\Food.cs",
-              "RelativeDocumentMoniker": "Palmfit.Domain\\Entities\\Foods\\Food.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Foods\\Food.cs",
-              "RelativeToolTip": "Palmfit.Domain\\Entities\\Foods\\Food.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T22:22:58.387Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Users\\AppUser.cs",
-              "RelativeDocumentMoniker": "Palmfit.Domain\\Entities\\Users\\AppUser.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Users\\AppUser.cs",
-              "RelativeToolTip": "Palmfit.Domain\\Entities\\Users\\AppUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T20:45:20.819Z",
+              "WhenOpened": "2024-09-03T17:45:15.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "MealFood.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Meals\\MealFood.cs",
-              "RelativeDocumentMoniker": "Palmfit.Domain\\Entities\\Meals\\MealFood.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Meals\\MealFood.cs",
-              "RelativeToolTip": "Palmfit.Domain\\Entities\\Meals\\MealFood.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAABAAAA",
+              "Title": "UserMapper.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Application\\MapperProfile\\UserMapper.cs",
+              "RelativeDocumentMoniker": "Palmfit.Application\\MapperProfile\\UserMapper.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Application\\MapperProfile\\UserMapper.cs",
+              "RelativeToolTip": "Palmfit.Application\\MapperProfile\\UserMapper.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBcAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T08:48:39.031Z"
+              "WhenOpened": "2024-09-03T17:44:28.159Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserMealPlan.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Meals\\UserMealPlan.cs",
-              "RelativeDocumentMoniker": "Palmfit.Domain\\Entities\\Meals\\UserMealPlan.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Meals\\UserMealPlan.cs",
-              "RelativeToolTip": "Palmfit.Domain\\Entities\\Meals\\UserMealPlan.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
+              "DocumentIndex": 8,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Users\\AppUser.cs",
+              "RelativeDocumentMoniker": "Palmfit.Domain\\Entities\\Users\\AppUser.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Users\\AppUser.cs",
+              "RelativeToolTip": "Palmfit.Domain\\Entities\\Users\\AppUser.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAA4wDkAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T22:32:03.675Z"
+              "WhenOpened": "2024-09-03T17:41:01.194Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MealPlan.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Meals\\MealPlan.cs",
-              "RelativeDocumentMoniker": "Palmfit.Domain\\Entities\\Meals\\MealPlan.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Meals\\MealPlan.cs",
-              "RelativeToolTip": "Palmfit.Domain\\Entities\\Meals\\MealPlan.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAABEAAAA0AAAA",
+              "DocumentIndex": 6,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Application\\Dtos\\User\\UserDto.cs",
+              "RelativeDocumentMoniker": "Palmfit.Application\\Dtos\\User\\UserDto.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Application\\Dtos\\User\\UserDto.cs",
+              "RelativeToolTip": "Palmfit.Application\\Dtos\\User\\UserDto.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAowCMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T22:24:33.227Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Invite.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Users\\Invite.cs",
-              "RelativeDocumentMoniker": "Palmfit.Domain\\Entities\\Users\\Invite.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Users\\Invite.cs",
-              "RelativeToolTip": "Palmfit.Domain\\Entities\\Users\\Invite.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T22:19:21.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Common\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "Palmfit.Domain\\Entities\\Common\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\PalmFit-Project\\PalmFit-BE\\Palmfit-BE\\Palmfit\\Palmfit.Domain\\Entities\\Common\\BaseEntity.cs",
-              "RelativeToolTip": "Palmfit.Domain\\Entities\\Common\\BaseEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T21:08:12.996Z"
+              "WhenOpened": "2024-09-03T17:40:53.071Z",
+              "EditorCaption": ""
             }
           ]
         }
