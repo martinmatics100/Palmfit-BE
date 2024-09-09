@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Palmfit.Common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae9e4860bbfca0f5f557f5807416b583c4f6abd3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+365be0ddd86b14ce537fa9705d5cbd465367d279")]
 [assembly: System.Reflection.AssemblyProductAttribute("Palmfit.Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Palmfit.Common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

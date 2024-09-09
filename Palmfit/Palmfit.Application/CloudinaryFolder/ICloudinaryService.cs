@@ -25,6 +25,6 @@ namespace Palmfit.Application.CloudinaryFolder
         /// </summary>
         /// <param name="publicId">The public ID of the image.</param>
         /// <returns>The URL of the image.</returns>
-        //string GetImageUrl(string publicId);
+        Task<byte[]> GetImageBytesAsync(string imageUrl);
     }
 }

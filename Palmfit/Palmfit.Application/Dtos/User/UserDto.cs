@@ -7,11 +7,12 @@ namespace Palmfit.Application.Dtos.User
 {
     public class UserDto
     {
-        public Guid UserId { get; set; }
+        public Guid Id { get; set; }
+        public string UserName { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
-        public string Gender { get; set; }
+        public Gender Gender { get; set; }
         public string ImageUrl { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string? Timezone { get; set; }

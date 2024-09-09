@@ -2,6 +2,7 @@
 using AutoMapper;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using Palmfit.Application.CloudinaryFolder;
 using Palmfit.Application.Dtos.User;
 using Palmfit.Application.Interfaces.IRepository;
 using Palmfit.Application.Interfaces.IServices;
@@ -21,14 +22,16 @@ namespace Palmfit.Application.Services
         IRepositoryWrapper _repositoryWrapper;
         private readonly IMapper _mapper;
         private readonly IOptions<JwtSection> _config;
+        private readonly ICloudinaryService _cloudinaryService;
 
-        public UserAccountServices(IOptions<JwtSection> config, IRepositoryWrapper repositoryWrapper, IMapper mapper)
+        public UserAccountServices(IOptions<JwtSection> config, IRepositoryWrapper repositoryWrapper, IMapper mapper, ICloudinaryService cloudinaryService)
         {
             _config = config ?? throw new ArgumentNullException(nameof(config));
             _repositoryWrapper = repositoryWrapper ?? throw new ArgumentNullException(nameof(repositoryWrapper));
             _mapper = mapper ?? throw new ArgumentNullException(nameof(_mapper));
+            _cloudinaryService = cloudinaryService ?? throw new ArgumentNullException(nameof(cloudinaryService));
 
-    }
+        }
         public async Task<GeneralResponse> CreateAsync(Register user)
         {
             switch (user)
@@ -202,98 +205,47 @@ namespace Palmfit.Application.Services
                 return new GeneralResponse(false, "User not found");
             }
 
-            if (!string.IsNullOrEmpty(updateUserDto.UserName))
-            {
-                user.UserName = updateUserDto.UserName;
-            }
+            user.UserName = !string.IsNullOrEmpty(updateUserDto.UserName) ? updateUserDto.UserName : user.UserName;
 
             if (!string.IsNullOrEmpty(updateUserDto.Email))
             {
-                var existingUser = await _repositoryWrapper.AppUserRepository
-                    .GetAllAsync();
+                var existingUser = await _repositoryWrapper.AppUserRepository.GetAllAsync();
                 var userWithSameEmail = existingUser.FirstOrDefault(u => u.Email.ToLower() == updateUserDto.Email.ToLower());
 
                 if (userWithSameEmail != null && userWithSameEmail.Id != userId)
                 {
                     return new GeneralResponse(false, "Email is already in use by another user");
                 }
+
                 user.Email = updateUserDto.Email;
             }
 
-            if (!string.IsNullOrEmpty(updateUserDto.PhoneNumber))
-            {
-                user.PhoneNumber = updateUserDto.PhoneNumber;
-            }
+            user.ImageUrl = updateUserDto.Image != null
+                            ? await _cloudinaryService.UploadImageAsync(updateUserDto.Image)
+                            : user.ImageUrl;
 
-            if (!string.IsNullOrEmpty(updateUserDto.Street))
-            {
-                user.Street = updateUserDto.Street;
-            }
+            user.PhoneNumber = !string.IsNullOrEmpty(updateUserDto.PhoneNumber) ? updateUserDto.PhoneNumber : user.PhoneNumber;
+            user.Street = !string.IsNullOrEmpty(updateUserDto.Street) ? updateUserDto.Street : user.Street;
+            user.City = !string.IsNullOrEmpty(updateUserDto.City) ? updateUserDto.City : user.City;
+            user.State = !string.IsNullOrEmpty(updateUserDto.State) ? updateUserDto.State : user.State;
+            user.PostalCode = !string.IsNullOrEmpty(updateUserDto.PostalCode) ? updateUserDto.PostalCode : user.PostalCode;
+            user.Country = !string.IsNullOrEmpty(updateUserDto.Country) ? updateUserDto.Country : user.Country;
 
-            if (!string.IsNullOrEmpty(updateUserDto.City))
-            {
-                user.City = updateUserDto.City;
-            }
-
-            if (!string.IsNullOrEmpty(updateUserDto.State))
-            {
-                user.State = updateUserDto.State;
-            }
-
-            if (!string.IsNullOrEmpty(updateUserDto.PostalCode))
-            {
-                user.PostalCode = updateUserDto.PostalCode;
-            }
-
-            if (!string.IsNullOrEmpty(updateUserDto.Country))
-            {
-                user.Country = updateUserDto.Country;
-            }
-
-            if (updateUserDto.Height.HasValue)
-            {
-                user.Height = updateUserDto.Height.Value;
-            }
-
-            if (updateUserDto.HeightUnit.HasValue)
-            {
-                user.HeightUnit = updateUserDto.HeightUnit.Value;
-            }
-
-            if (updateUserDto.Weight.HasValue)
-            {
-                user.Weight = updateUserDto.Weight.Value;
-            }
-
-            if (updateUserDto.WeightUnit.HasValue)
-            {
-                user.WeightUnit = updateUserDto.WeightUnit.Value;
-            }
-
-            if (updateUserDto.ActivityLevel.HasValue)
-            {
-                user.ActivityLevel = updateUserDto.ActivityLevel.Value;
-            }
-
-            if (updateUserDto.FitnessLevel.HasValue)
-            {
-                user.FitnessLevel = updateUserDto.FitnessLevel.Value;
-            }
-
-            if (updateUserDto.WeightGoal.HasValue)
-            {
-                user.WeightGoal = updateUserDto.WeightGoal.Value;
-            }
-
-            if (updateUserDto.Gender.HasValue)
-            {
-                user.Gender = updateUserDto.Gender.Value;
-            }
+            user.Height = updateUserDto.Height.HasValue ? updateUserDto.Height.Value : user.Height;
+            user.HeightUnit = updateUserDto.HeightUnit.HasValue ? updateUserDto.HeightUnit.Value : user.HeightUnit;
+            user.Weight = updateUserDto.Weight.HasValue ? updateUserDto.Weight.Value : user.Weight;
+            user.WeightUnit = updateUserDto.WeightUnit.HasValue ? updateUserDto.WeightUnit.Value : user.WeightUnit;
+            user.ActivityLevel = updateUserDto.ActivityLevel.HasValue ? updateUserDto.ActivityLevel.Value : user.ActivityLevel;
+            user.FitnessLevel = updateUserDto.FitnessLevel.HasValue ? updateUserDto.FitnessLevel.Value : user.FitnessLevel;
+            user.WeightGoal = updateUserDto.WeightGoal.HasValue ? updateUserDto.WeightGoal.Value : user.WeightGoal;
+            user.Gender = updateUserDto.Gender.HasValue ? updateUserDto.Gender.Value : user.Gender;
+            user.DateOfBirth = updateUserDto.DateOfBirth.HasValue ? updateUserDto.DateOfBirth.Value.ToUniversalTime() : user.DateOfBirth;
 
             await _repositoryWrapper.AppUserRepository.UpdateAsync(user);
 
             return new GeneralResponse(true, "User updated successfully");
         }
+
 
 
 
@@ -416,17 +368,60 @@ namespace Palmfit.Application.Services
                     .Where(ur => ur.RoleId == adminRole.Id)
                     .Select(ur => ur.UserId)
                     .ToHashSet();
-                var nonAdminUsers = users.Where(u => !adminUserIds.Contains(u.Id));
+                var nonAdminUsers = users.Where(u => !adminUserIds.Contains(u.Id) && u.IsDeprecated == IsDeprecationStatus.False);
 
                 userDtos = _mapper.Map<IEnumerable<UserDto>>(nonAdminUsers);
-                return new DataResponse<IEnumerable<UserDto>>(true, "Users fetched successfully", userDtos);
+
+                return new DataResponse<IEnumerable<UserDto>>(true, "", userDtos);
             }
             else
             {
-                userDtos = _mapper.Map<IEnumerable<UserDto>>(users);
+                var nonDeprecatedUsers = users.Where(u => u.IsDeprecated == IsDeprecationStatus.False);
+                userDtos = _mapper.Map<IEnumerable<UserDto>>(nonDeprecatedUsers);
+
                 return new DataResponse<IEnumerable<UserDto>>(true, "No users found", userDtos);
-            }
+            }       
         }
 
+        public async Task<DataResponse<UserDto>> GetUserByIdAsync(Guid userId)
+        {
+            var user = await _repositoryWrapper.AppUserRepository.GetByIdAsync(userId);
+
+            if (user == null || user.IsDeprecated == IsDeprecationStatus.True)
+            {
+                return new DataResponse<UserDto>(false, "User not found or deprecated");
+            }
+
+            var userDto = _mapper.Map<UserDto>(user);
+
+            return new DataResponse<UserDto>(true, "", userDto);
+        }
+
+        public async Task<DataResponse<bool>> DeprecateUserAsync(Guid userId)
+        {
+            await _repositoryWrapper.AppUserRepository.DeprecateAsync(userId);
+
+            return new DataResponse<bool>(true, "User has been deprecated successfully");
+        }
+
+        public async Task<DataResponse<bool>> DeleteUserAsync(Guid userId)
+        {
+            var user = await _repositoryWrapper.AppUserRepository.GetByIdAsync(userId);
+
+            if (user == null)
+            {
+                return new DataResponse<bool>(false, "User not found");
+            }
+
+            await _repositoryWrapper.AppUserRepository.DeleteAsync(user);
+
+            return new DataResponse<bool>(true, "User has been deleted successfully");
+        }
+        public async Task<DataResponse<bool>> ActivateUserAsync(Guid userId)
+        {
+            await _repositoryWrapper.AppUserRepository.ActivateAsync(userId);
+
+            return new DataResponse<bool>(true, "User has been activated successfully");
+        }
     }
 }

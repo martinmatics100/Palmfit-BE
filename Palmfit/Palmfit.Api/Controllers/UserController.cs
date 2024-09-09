@@ -20,28 +20,28 @@ namespace Palmfit.Api.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register(Register request)
+        public async Task<IActionResult> Register([FromForm] Register request)
         {
             var result = await _userAccountServices.CreateAsync(request);
             return Ok(result.Message);
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> SignIn(Login request)
+        public async Task<IActionResult> SignIn([FromForm] Login request)
         {
             var result = await _userAccountServices.SignInAsync(request);
             return Ok(result);
         }
 
         [HttpPost("logout")]
-        public async Task<IActionResult> SignOut(Guid userId)
+        public async Task<IActionResult> SignOut([FromForm] Guid userId)
         {
             var result = await _userAccountServices.SignOutAsync(userId);
             return Ok(result);
         }
 
         [HttpPut("update")]
-        public async Task<IActionResult> UpdateUser(Guid userId, UpdateUser updateUserDto)
+        public async Task<IActionResult> UpdateUser(Guid userId, [FromForm] UpdateUser updateUserDto)
         {
             var result = await _userAccountServices.UpdateUserAsync(userId, updateUserDto);
             if (!result.Flag)
@@ -52,7 +52,7 @@ namespace Palmfit.Api.Controllers
         }
 
         [HttpPost("reauthenticate")]
-        public async Task<IActionResult> ReAuthenticate(ReauthenticateRequest request)
+        public async Task<IActionResult> ReAuthenticate([FromForm] ReauthenticateRequest request)
         {
 
             var response = await _userAccountServices.ReAuthenticateAsync(request.UserId);
@@ -76,6 +76,52 @@ namespace Palmfit.Api.Controllers
             }
 
             return Ok(response.Data);
+        }
+
+        [HttpGet("get-user/{id}/")]
+        public async Task<IActionResult> GetUserById(Guid id)
+        {
+            var response = await _userAccountServices.GetUserByIdAsync(id);
+
+            if (!response.Flag)
+            {
+                return NotFound(new { message = response.Message });
+            }
+
+            return Ok(response.Data);
+        }
+
+        [HttpPost("deprecate/{id}")]
+        public async Task<IActionResult> DeprecateUser(Guid id)
+        {
+            var result = await _userAccountServices.DeprecateUserAsync(id);
+            if (!result.Flag)
+            {
+                return BadRequest(result.Message);
+            }
+            return Ok();
+        }
+
+        [HttpPost("activate/{id}")]
+        public async Task<IActionResult> ActivateUser(Guid id)
+        {
+            var result = await _userAccountServices.ActivateUserAsync(id);
+            if (!result.Flag)
+            {
+                return BadRequest(result.Message);
+            }
+            return Ok();
+        }
+
+        [HttpDelete("delete/{id}")]
+        public async Task<IActionResult> DeleteUser(Guid id)
+        {
+            var result = await _userAccountServices.DeleteUserAsync(id);
+            if (!result.Flag)
+            {
+                return BadRequest(result.Message);
+            }
+            return Ok();
         }
     }
 }

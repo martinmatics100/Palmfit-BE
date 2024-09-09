@@ -16,5 +16,9 @@ namespace Palmfit.Application.Interfaces.IServices
         Task<LoginResponse> RefreshTokenAsync(RefreshToken token);
         Task<GeneralResponse> ReAuthenticateAsync(Guid userId);
         Task<DataResponse<IEnumerable<UserDto>>> GetAllUsersAsync();
+        Task<DataResponse<UserDto>> GetUserByIdAsync(Guid userId);
+        Task<DataResponse<bool>> DeprecateUserAsync(Guid userId);
+        Task<DataResponse<bool>> DeleteUserAsync(Guid userId);
+        Task<DataResponse<bool>> ActivateUserAsync(Guid userId);
     }
 }

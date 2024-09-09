@@ -11,5 +11,7 @@ namespace Palmfit.Application.Interfaces.IRepository
         Task DeleteAsync(T entity);
         //Task SaveChangesAsync();
         Task DeprecateAsync(Guid userId);
+
+        Task ActivateAsync(Guid userId);
     }
 }

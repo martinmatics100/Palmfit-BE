@@ -34,5 +34,14 @@ namespace Palmfit.Common.CloudinaryFolder
 
             return uploadResult.SecureUrl.AbsoluteUri;
         }
+
+        public async Task<byte[]> GetImageBytesAsync(string imageUrl)
+        {
+            using (var client = new HttpClient())
+            {
+                var imageBytes = await client.GetByteArrayAsync(imageUrl);
+                return imageBytes;
+            }
+        }
     }
 }

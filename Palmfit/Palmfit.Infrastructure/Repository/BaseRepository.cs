@@ -64,7 +64,7 @@ namespace Palmfit.Infrastructure.Repository
 
         public async Task DeprecateAsync(Guid userId)
         {
-            var user = await _dbSet.FirstOrDefaultAsync(entity => EF.Property<Guid>(entity, "Id") == userId);
+            var user = await _dbSet.FirstOrDefaultAsync(entity => EF.Property<Guid>(entity, "Id") == userId); 
 
             if (user == null)
             {
@@ -75,6 +75,27 @@ namespace Palmfit.Infrastructure.Repository
             if (deprecationProperty != null)
             {
                 deprecationProperty.SetValue(user, IsDeprecationStatus.True);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsDeprecated property not found on the entity");
+            }
+            await SaveChangesAsync();
+        }
+
+        public async Task ActivateAsync(Guid userId)
+        {
+            var user = await _dbSet.FirstOrDefaultAsync(entity => EF.Property<Guid>(entity, "Id") == userId);
+
+            if (user == null)
+            {
+                throw new ArgumentNullException(nameof(user), "User not found");
+            }
+
+            var activationProperty = typeof(T).GetProperty("IsDeprecated");
+            if (activationProperty != null)
+            {
+                activationProperty.SetValue(user, IsDeprecationStatus.False);
             }
             else
             {
